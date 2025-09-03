@@ -3,5 +3,5 @@ body {
     background: hsl(269, 77%, 70%);
 }
 header {
-    border: solid 2px white;
+    border-bottom: solid hsl(269, 77%, 3%);
 }
