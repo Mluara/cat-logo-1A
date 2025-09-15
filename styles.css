@@ -28,15 +28,11 @@ section {
   display: flex;
   justify-content: center;
 }
-
-.categoria {
-  padding-left: 20px;
-  padding-right: 20px;
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
 }
-<a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-    <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
-</a>
-<a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-    <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
-</a>
 
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
