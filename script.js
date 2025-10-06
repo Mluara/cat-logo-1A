@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     botoes.forEach(botao => {
         botao.addEventListener("click", () => {
-            const proximo = botao.getAttribute("data-proximo");
+            const proximo = botão.getAttribute("data-proximo");
 
             passos.forEach(passo => passo.classList.remove("ativo"));
 
-            const proximoPasso = document.getElementById(`passo-${proximo}`);
+            const próximoPasso = document.getElementById(`passo-${proximo}`);
             if (proximoPasso) {
-                proximoPasso.classList.add("ativo");
+                próximoPasso.classList.add("ativo");
             }
         });
     });
